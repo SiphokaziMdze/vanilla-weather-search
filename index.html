@@ -12,8 +12,12 @@
 <body>
     <div class="weather-app">
    <header>
-    <form class="search-form">
-        <input type="search" placeholder="Enter a city" required class="search-form-input" />
+    <form class="search-form" id="search-form">
+        <input 
+        type="search" 
+        placeholder="Enter a city" 
+        required class="search-form-input"
+        id="search-form-input" />
         <input type="submit" value="Search" class="search-form-button" />
     </form>
 
@@ -21,14 +25,15 @@
    <main>
     <div class="weather-app-data">
     <div>
-    <h1 class="weather-app-city">Paris</h1> 
+    <h1 class="weather-app-city" id="city">Paris</h1> 
     <p class="weather-app-details">
         Wednesday 21:00, light rain
         <br />
         Humidity: <strong>86%</strong>, Wind: <strong>7.72km/h</strong>
     </p>
     </div>
-    <div class="weather-app-temperature">☁ 12 °C</div>
+    <div class="weather-app-temperature"><div class="icon">☁</div><div class="temperature">12</div><div class="units">°C</div>
+    </div>
     </div>
    </main>
  
@@ -38,5 +43,6 @@
     <a href="https://exquisite-alpaca-541485.netlify.app/" target="blank">Netlify</a>
    </footer>
 </div>
+<script src="src/index.js"></script>
 </body>
 </html>
