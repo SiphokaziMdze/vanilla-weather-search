@@ -30,6 +30,30 @@ header{
      padding: 15px 20px;
 }
 
+.weather-app-city{
+    margin: 20px 0 10px;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #272142;
+}
+
+.weather-app-details{
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(39, 33, 66, 0.4)
+}
+
+.weather-app-details strong{
+    color: #f65282;
+    
+}
+
+.weather-app-data{
+    display: flex;
+    justify-content: space-between;
+}
+
 .search-form-button{
     background-color: blueviolet;
     padding: 15px 30px;
@@ -38,6 +62,11 @@ header{
     margin-left: 5px;
     border-radius: 6px;
     color: white;
+}
+
+main{
+    padding: 30px;
+
 }
 
 footer{
